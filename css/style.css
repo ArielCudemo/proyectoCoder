@@ -1,0 +1,285 @@
+.nav-modificado {
+  background-color: #efeff7;
+}
+nav img {
+  max-width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul ol {
+  margin-right: 20px;
+}
+
+nav ul ol a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+}
+
+header {
+  background-color: #b3e0ff;
+  padding: 20px;
+}
+
+.imagen-chica {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  color: #003366;
+}
+footer {
+  background-color: #003366;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.video-chico {
+  max-width: 100%;
+  height: auto;
+  max-height: 160px;
+  margin-right: 20px;
+}
+
+.instagram-logo {
+  width: 42px;
+  height: 42px;
+}
+
+.instagram-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 50px;
+  margin-left: 100px;
+}
+
+form {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #003366;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #002855;
+}
+.mapa-centrado {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* COMIENZA GRID */
+.grid {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1f 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "rocio dafne "
+    "maxi martina";
+  column-gap: 1rem;
+}
+.rocio {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+.rocio:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.dafne {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/WhatsApp\ Image\ 2023-10-08\ at\ 21.35.10.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+
+.dafne:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.maxi {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+
+  background-size: auto;
+  background-position: center;
+
+  padding: auto;
+  text-align: center;
+}
+.maxi:hover {
+  transform: scale(1.1);
+
+  transition: transform 0.3s ease;
+}
+.martina {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+.martina:hover {
+  transform: scale(1.1);
+
+  transition: transform 0.3s ease;
+}
+.micaela {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+.micaela:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.agustina {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+.agustina:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.lara {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+.lara:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.delfina {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+.delfina:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.camila {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+.camila:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.julian {
+  background-color: rgb(0, 42, 255);
+  color: #e6f7ff;
+  background-image: url(../img/maisi.jpeg);
+  background-size: auto;
+  background-position: center;
+  padding: auto;
+  text-align: center;
+}
+
+.julian:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Modificaciones parar el carousel */
+#carouselExample {
+  margin-top: 20px;
+}
+
+#carouselExample .carousel-inner {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#carouselExample .carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
